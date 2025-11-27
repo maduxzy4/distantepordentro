@@ -8,18 +8,18 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color:#002d5d;; /* cor fundo */ 
+  --background-color: #2377ff; /* cor fundo */ 
   --default-color: #ffffff; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #10a3d7; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #73b7ff; /*cor dos quadradinhos */
+  --accent-color: #79afcc; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #002852; /*cor dos quadradinhos */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #e4edf5;  /* The default color of the main navmenu links */
-  --nav-hover-color: #10a3d7; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #c3efff; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: rgba(22, 29, 44, 0.95); /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: rgba(23, 30, 47, 0.95); /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: rgba(215, 226, 235, 0.645); /* Used for navigation links of the dropdown items in the navigation menu. */
@@ -29,7 +29,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #3B82F6; /* cor fundo 2 */
+  --background-color: #80bffd; /* cor fundo 2 */
   --surface-color: #7684a7;
 }
 
